@@ -1,0 +1,262 @@
+
+body {
+  font-family: "Montserrat";
+  background: #e3f2fd;
+}
+/* global */
+.text-green {
+  color: #61e786;
+}
+
+.bg-navbar{
+  background: #e3f2fd;
+}
+
+.school-heading{
+  background: #61e786;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%,0 100%);
+}
+
+.text-slant {
+  font-family: "Caveat", cursive;
+}
+.green__btn {
+  color: #61e786;
+  border: 0.1rem solid #61e786;
+  background: transparent;
+}
+.green__btn:hover {
+  background: #61e786;
+  color: #fff;
+}
+.title-underline {
+  width: 12rem;
+  height: 0.3rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 2rem;
+}
+.title-underline__center {
+  position: absolute;
+  height: 0.6rem;
+  background: #61e786;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+}
+.blockquote {
+  border-left: 0.5rem solid #61e786;
+}
+/* end of global */
+
+/* navbar */
+
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+.phone-icon {
+  color: #61e786;
+  border: 0.1rem solid #61e786;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+
+/* end of navbar */
+
+
+.max-height {
+  min-height: calc(100vh - 76px);
+  background: url("images/bannerimage1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.max-height1 {
+  min-height: calc(100vh - 76px);
+  background: url("images/studentad.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.banner {
+  color: #0f0f0f;
+  margin-top: -64px;
+  margin-top: -4rem;
+}
+
+.banner-title {
+  color: #61e786;
+  font-size: 64px;
+  font-size: 4rem;
+}
+/* end of banner */
+
+/* banner2 */
+.banner-info {
+  min-height: calc(100vh - 101px);
+  background: #fff;
+  position: relative;
+}
+.banner-info__footer {
+  background:#61e786 ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.banner-img {
+  min-height: calc(100vh - 101px);
+  background: url("images/admission1.jpg") center/cover fixed no-repeat;
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  position: relative;
+}
+.banner-img__footer {
+  background:#678ca6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 104px;
+  display: flex;
+  align-items: center;
+}
+/* end of banner2 */
+
+/* message */
+
+.img-container {
+  position: relative;
+}
+
+.image-height{
+  height: 20rem;
+}
+/* featured */
+.featured {
+  background: #678ca6;
+}
+
+/* gallery  */
+
+.gallery-heading{
+  background: #61e786;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%,0 100%);
+}
+
+.gallery-item{
+  background: #61e786;
+  position: relative;
+  cursor: pointer;
+}
+.gallery-img{
+  transition: all 1s ease-in-out;
+}
+.gallery-item:hover .gallery-img{
+opacity: 0.5;
+}
+.gallery-item::after{
+  content: "";
+  position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ outline: 0.5rem solid #fff;
+ outline-offset: -2rem;
+ transition: all 1s ease-in-out;
+ transform: scale(0);
+}
+.gallery-item:hover:after{
+  transform: scale(1);
+}
+
+/* contact form  */
+/*##########contact##########################*/
+
+.height-60 {
+  min-height: 80vh;
+}
+
+
+#contact .card {
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 2s ease;
+}
+
+#contact .card:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#contact .card-header {
+  color: #61e786;
+}
+
+#contact .input-group-text {
+  background: #61e786;
+  border-color: #61e786;
+  color: #b3afaf;
+}
+
+#contact .card input {
+  color: #606060;
+}
+
+#contact .card input::placeholder {
+  color: #b3afaf;
+}
+
+#contact .card textarea::placeholder {
+  color: #b3afaf;
+}
+
+.contact-btn {
+  color: #f1fffa;
+  background: #61e786;
+  transition: all 2s ease-in-out;
+}
+
+.contact-btn:hover {
+  background: transparent;
+  border-color: #61e786;
+  color: #61e786;
+}
+
+/*##############footer###################*/
+
+footer {
+  background: #242424;
+}
+
+.footer-icons a {
+  color: #61e786;
+  font-size: 25px;
+  transition: color 1s ease;
+
+}
+
+.footer-icons a:hover {
+  color: #f1fffa;
+}
+
+footer h5 {
+  color: #f1fffa;
+}
